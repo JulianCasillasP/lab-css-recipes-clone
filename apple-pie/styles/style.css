@@ -22,3 +22,59 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+section {
+  margin: 100px
+}
+.header {
+  
+  text-align: center;
+}
+h1 {
+    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 7em
+}
+.imagenprincipal {
+  width: 1500px;
+  height: 1000px;
+}
+
+ol {
+  list-style: none;
+  
+}
+ol li {
+  counter-increment: listcounter;
+}
+li {
+  margin-left: 2em;
+}
+ol li::before {
+  content: counter(listcounter) ") ";
+}
+h2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+ul { 
+  list-style: "- ";
+  margin-left: 10px
+}
+img {
+  display: block;
+  margin: 0 auto;;
+}
+
+.contenido {
+  margin:center
+}
+.imagenessecundarias {
+  height: 120px;
+  width: 400px;
+
+}
